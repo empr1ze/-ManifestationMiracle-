@@ -1,21 +1,25 @@
 body {
-  margin-top: 105px; }
+  margin-top: 75px; }
 
 .navbar {
-  box-shadow: 2px 2px 5px #3292a6;
+  box-shadow: 2px 2px 5px #6f42c1;
   opacity: 0.9;
-  background: #fff; }
+  background: #000; }
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 20px; }
 
 #showcase {
   position: relative;
-  background: url("../img/mountains.jpg");
-  min-height: 600px; }
+  background: url("../img/stars.jpg");
+  min-height: 860px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
   #showcase .primary-overlay {
-    background: rgba(50, 146, 166, 0.8);
-    position: absolute;
+    background: rgba(111, 66, 193, 0.6);
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,17 +30,18 @@ body {
   margin: auto;
   border-bottom: 1px #ddd solid; }
 
-#authors .text-muted1 {
-  color: gray; }
+#experts .text-muted1 {
+  color: gray;
+  font-size: 15px; }
 
-#authors img {
+#experts img {
   margin-top: -50px; }
 
-#authors .fa {
+#experts .fa {
   font-size: 25px; }
 
-#authors .card:hover {
-  background: #3292a6;
+#experts .card:hover {
+  background: #6f42c1;
   color: #fff; }
-  #authors .card:hover .fa, #authors .card:hover .text-muted1 {
+  #experts .card:hover .fa, #experts .card:hover .text-muted1 {
     color: #fff; }

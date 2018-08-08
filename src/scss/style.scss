@@ -1,13 +1,13 @@
-$primary: #3292a6;
-$primary-overlay: rgba(50,146,166,0.8);
+$primary: #6f42c1;
+$primary-overlay: rgba(111,66,193,0.6);
 body{
-  margin-top:105px;
+  margin-top:75px;
 }
 
 .navbar{
   box-shadow:2px 2px 5px $primary;
   opacity:0.9;
-  background:#fff;
+  background:#000;
 
   .nav-item{
     font-size:1.4rem;
@@ -17,12 +17,16 @@ body{
 
 #showcase {
   position: relative;
-  background: url('../img/mountains.jpg');
-  min-height: 600px;
+  background: url('../img/stars.jpg');
+  min-height: 860px;
+  background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
   .primary-overlay {
     background: $primary-overlay;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,9 +40,10 @@ body{
   border-bottom: 1px #ddd solid;
 }
 
-#authors {
+#experts {
   .text-muted1 {
     color: gray;
+    font-size: 15px;
   }
   img {
     margin-top: -50px;
